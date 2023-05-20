@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: #ff48ff;
+} 
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+	background: #ff48ff;
+}
+
+
+.navbar {
+	background: #ff48ff;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+	color: #ff48ff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+	background: #000000;
+	color: #ff48ff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.portada{
+    height: 50vh;
+    width: 218vh;
+}
+h1{
+    text-align: center; 
+}
+
+#introduccion{
+    text-align:center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.3em;
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.img2{
+    height: 220px;
+    width: 280px;
+    border: 3px solid black;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.borde {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px 100px;
+    grid-template-rows: 250px;
+    background-color: #ff48ff;
+}
+
+.nombres {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    gap: 30px 115px;
+    grid-template-rows: 250px;
+    background-color: #ff48ff;
+    text-align: center;
+}
+
+.ctextDCH {
+    height: 1px;
+    width: 250px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 1px;
+    text-align: justify;
+    font-size: 1em;  
+}
+
+footer{
+    text-align: center;
+}

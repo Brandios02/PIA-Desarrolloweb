@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(105, 201, 226);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  body{
+    background-image: linear-gradient(rgba(188, 211, 237, 0.5), rgba(208, 211, 11, 0.308));
+}
+h1{
+    text-align: center;
+  }
+h2{
+    text-align: center;
+  }
+
+main{
+    text-align: left;
+  }
+footer{
+    text-align: center;
+  }
