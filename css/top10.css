@@ -1,3 +1,36 @@
 body {
-    background-color: rosybrown;
+    background-color: rgb(250, 156, 242);
 }
+h1{
+    text-align: center;
+}
+.navbar {
+    background: #ff99ee;
+      position: sticky;
+      top: 0;
+  }
+  
+  .navbar a {
+    color: #ff48ff;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    transition: .3s ease-out all;
+      font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background: #000000;
+    color: #ff48ff;
+    text-decoration: none;
+  }
+  
+  .contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }

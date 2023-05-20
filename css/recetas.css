@@ -1,4 +1,4 @@
-  .navbar {
+.navbar {
     background: #ff99ee;
       position: sticky;
       top: 0;
@@ -27,22 +27,4 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-  }
-  body{
-    background-color: #ff48ff;
-}
-h1{
-    text-align: center;
-    background-color: #ff48ff;
-  }
-h2{
-    text-align: center;
-  }
-
-main{
-    text-align: left;
-    
-  }
-footer{
-    text-align: center;
   }
